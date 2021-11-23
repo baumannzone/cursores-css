@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Los cursores en CSS 👩‍💻</title>
+  <meta name="description" content="Todos los cursores que puedes usar en HTML y CSS">
+
+  <style>
+    body {
+      text-align: center;
+      font-family: Helvetica, Arial, sans-serif;
+    }
+
+    .cursors {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .cursors p {
+      display: block;
+      height: 28px;
+    }
+
+    .cursors>div {
+      position: relative;
+      flex: 150px;
+      align-items: center;
+      padding: 10px 2px;
+      white-space: nowrap;
+      border: 3px solid #EDE9FE;
+      border-radius: 5px;
+      margin: 2px;
+    }
+
+    .cursors>div:hover {
+      background: #EDE9FE;
+    }
+
+    .auto {
+      cursor: auto;
+    }
+
+    .default {
+      cursor: default;
+    }
+
+    .none {
+      cursor: none;
+    }
+
+    .context-menu {
+      cursor: context-menu;
+    }
+
+    .help {
+      cursor: help;
+    }
+
+    .pointer {
+      cursor: pointer;
+    }
+
+    .progress {
+      cursor: progress;
+    }
+
+    .wait {
+      cursor: wait;
+    }
+
+    .cell {
+      cursor: cell;
+    }
+
+    .crosshair {
+      cursor: crosshair;
+    }
+
+    .text {
+      cursor: text;
+    }
+
+    .vertical-text {
+      cursor: vertical-text;
+    }
+
+    .alias {
+      cursor: alias;
+    }
+
+    .copy {
+      cursor: copy;
+    }
+
+    .move {
+      cursor: move;
+    }
+
+    .no-drop {
+      cursor: no-drop;
+    }
+
+    .not-allowed {
+      cursor: not-allowed;
+    }
+
+    .all-scroll {
+      cursor: all-scroll;
+    }
+
+    .col-resize {
+      cursor: col-resize;
+    }
+
+    .row-resize {
+      cursor: row-resize;
+    }
+
+    .n-resize {
+      cursor: n-resize;
+    }
+
+    .e-resize {
+      cursor: e-resize;
+    }
+
+    .s-resize {
+      cursor: s-resize;
+    }
+
+    .w-resize {
+      cursor: w-resize;
+    }
+
+    .ns-resize {
+      cursor: ns-resize;
+    }
+
+    .ew-resize {
+      cursor: ew-resize;
+    }
+
+    .ne-resize {
+      cursor: ne-resize;
+    }
+
+    .nw-resize {
+      cursor: nw-resize;
+    }
+
+    .se-resize {
+      cursor: se-resize;
+    }
+
+    .sw-resize {
+      cursor: sw-resize;
+    }
+
+    .nesw-resize {
+      cursor: nesw-resize;
+    }
+
+    .nwse-resize {
+      cursor: nwse-resize;
+    }
+
+    .zoom-in {
+      cursor: zoom-in;
+    }
+
+    .zoom-out {
+      cursor: zoom-out;
+    }
+
+    .grab {
+      cursor: grab;
+    }
+
+    .grabbing {
+      cursor: grabbing;
+    }
+
+    .social.github svg {
+      position: relative;
+      top: 4px;
+      margin-right: 4px;
+      height: 18px;
+    }
+
+    .social.github a {
+      height: 28px;
+      background: #333;
+      color: #fff;
+      border-radius: 5px;
+      padding: 0 10px;
+      font-size: 13px;
+      font-weight: 500;
+      text-decoration: none;
+      vertical-align: bottom;
+      display: inline-block;
+    }
+
+    .social.website a {
+      color: #8B5CF6
+    }
+
+    .floating-text {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 12px;
+      font-weight: 600;
+      padding: 7px;
+      font-family: 'Lucida Console', Monaco, monospace;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <h1>
+      Los cursores en CSS
+    </h1>
+
+    <div class="cursors">
+      <div class="auto">
+        <p>
+          auto
+        </p>
+      </div>
+      <div class="default">
+        <p>
+          default
+        </p>
+      </div>
+      <div class="none">
+        <p>
+          none
+        </p>
+      </div>
+      <div class="context-menu">
+        <p>
+          context-menu
+        </p>
+      </div>
+      <div class="help">
+        <p>
+          help
+        </p>
+      </div>
+      <div class="pointer">
+        <p>
+          pointer
+        </p>
+      </div>
+      <div class="progress">
+        <p>
+          progress
+        </p>
+      </div>
+      <div class="wait">
+        <p>
+          wait
+        </p>
+      </div>
+      <div class="cell">
+        <p>
+          cell
+        </p>
+      </div>
+      <div class="crosshair">
+        <p>
+          crosshair
+        </p>
+      </div>
+      <div class="text">
+        <p>
+          text
+        </p>
+      </div>
+      <div class="vertical-text">
+        <p>
+          vertical-text
+        </p>
+      </div>
+      <div class="alias">
+        <p>
+          alias
+        </p>
+      </div>
+      <div class="copy">
+        <p>
+          copy
+        </p>
+      </div>
+      <div class="move">
+        <p>
+          move
+        </p>
+      </div>
+      <div class="no-drop">
+        <p>
+          no-drop
+        </p>
+      </div>
+      <div class="not-allowed">
+        <p>
+          not-allowed
+        </p>
+      </div>
+      <div class="all-scroll">
+        <p>
+          all-scroll
+        </p>
+      </div>
+      <div class="col-resize">
+        <p>
+          col-resize
+        </p>
+      </div>
+      <div class="row-resize">
+        <p>
+          row-resize
+        </p>
+      </div>
+      <div class="n-resize">
+        <p>
+          n-resize
+        </p>
+      </div>
+      <div class="s-resize">
+        <p>
+          s-resize
+        </p>
+      </div>
+      <div class="e-resize">
+        <p>
+          e-resize
+        </p>
+      </div>
+      <div class="w-resize">
+        <p>
+          w-resize
+        </p>
+      </div>
+      <div class="ns-resize">
+        <p>
+          ns-resize
+        </p>
+      </div>
+      <div class="ew-resize">
+        <p>
+          ew-resize
+        </p>
+      </div>
+      <div class="ne-resize">
+        <p>
+          ne-resize
+        </p>
+      </div>
+      <div class="nw-resize">
+        <p>
+          nw-resize
+        </p>
+      </div>
+      <div class="se-resize">
+        <p>
+          se-resize
+        </p>
+      </div>
+      <div class="sw-resize">
+        <p>
+          sw-resize
+        </p>
+      </div>
+      <div class="nesw-resize">
+        <p>
+          nesw-resize
+        </p>
+      </div>
+      <div class="nwse-resize">
+        <p>
+          nwse-resize
+        </p>
+      </div>
+      <div class="zoom-in">
+        <p>
+          zoom-in
+        </p>
+      </div>
+      <div class="zoom-out">
+        <p>
+          zoom-out
+        </p>
+      </div>
+      <div class="grab">
+        <p>
+          grab
+        </p>
+      </div>
+      <div class="grabbing">
+        <p>
+          grabbing
+        </p>
+      </div>
+      <div class="social website">
+        <span class="floating-text">
+          Creado por
+        </span>
+        <p>
+          <a href="https://baumannzone.dev" target="_blank">
+            baumannzone.dev
+          </a>
+        </p>
+      </div>
+      <div class="social github">
+        <span class="floating-text">
+          Código fuente
+        </span>
+        <p>
+          <a href="https://github.com/baumannzone" target="_blank">
+            <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <title>GitHub</title>
+              <path fill="currentColor"
+                d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+            </svg>
+            GitHub
+          </a>
+        </p>
+      </div>
+      <div class="social twitter">
+        <span class="floating-text">
+          ¿Lo compartes?
+        </span>
+        <p><a href="https://twitter.com/share" class="twitter-share-button" data-show-count="false"
+            data-url="https://baumannzone.github.io/cursores-css/" data-size="large" data-lang="es"
+            data-text="↖️ Los cursores en CSS: mira esta guía de referencia con todos los cursores disponibles."
+            data-hashtags="HTML,JavaScript,CSS" data-via="baumannzone" data-related="baumannzone"
+            data-dnt="true">Compartir</a></p>
+      </div>
+    </div>
+
+  </main>
+
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</body>
+
+</html>
