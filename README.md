@@ -2,7 +2,9 @@
 
 Listado completo de cursores en CSS, ordenados alfabéticamente:
 
-<!-- MarkDown table with CSS cursors -->
+## https://baumannzone.github.io/cursores-css/
+
+## Cheatsheet
 
 | Cursor | CSS |
 | ------ | --- |
