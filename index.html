@@ -205,14 +205,18 @@
       cursor: grabbing;
     }
 
-    .social.github svg {
+    .emoji {
+      cursor: url("data:image/svg+xml;utf8, <svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' style='font-size: 24px'><text y='20'>🎉</text></svg>") 16 0,
+    }
+
+    .github svg {
       position: relative;
       top: 4px;
       margin-right: 4px;
       height: 18px;
     }
 
-    .social.github a {
+    .github a {
       height: 28px;
       background: #333;
       color: #fff;
@@ -225,7 +229,7 @@
       display: inline-block;
     }
 
-    .social.website a {
+    .website a {
       color: #8B5CF6
     }
 
@@ -429,6 +433,11 @@
           grabbing
         </p>
       </div>
+      <div class="emoji">
+        <p>
+          😎
+        </p>
+      </div>
       <div class="social website">
         <span class="floating-text">
           Creado por
@@ -469,6 +478,8 @@
   </main>
 
   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  <script src="https://cdn.usefathom.com/script.js" data-site="CCCNRRCJ" data-honor-dnt="true"
+    data-included-domains="baumannzone.github.io/cursores-css" defer></script>
 </body>
 
 </html>
