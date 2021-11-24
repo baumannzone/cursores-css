@@ -1,10 +1,12 @@
-# Los cursores en CSS
+# LOS CURSORES EN CSS
 
-Listado completo de cursores en CSS, ordenados alfabéticamente:
+![Los cursores en CSS](/img/og.png)
+
 
 ## https://baumannzone.github.io/cursores-css/
 
 ## Cheatsheet
+Listado completo de cursores en CSS, ordenados alfabéticamente:
 
 | Cursor | CSS |
 | ------ | --- |
