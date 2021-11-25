@@ -1,7 +1,8 @@
 # LOS CURSORES EN CSS
 
-![Los cursores en CSS](/img/og.png)
+Si te sirvió, deja tu estrellita en el repo ⭐️ y comparte.
 
+![Los cursores en CSS](/img/og.png)
 
 ## https://baumannzone.github.io/cursores-css/
 
