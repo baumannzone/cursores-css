@@ -1,6 +1,6 @@
 # LOS CURSORES EN CSS
 
-Si te sirvió, deja tu estrellita en el repo ⭐️ y comparte.
+⭐️ Si te gustó, dale a la estrellita.
 
 ![Los cursores en CSS](/img/og.png)
 
