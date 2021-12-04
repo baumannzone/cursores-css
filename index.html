@@ -489,6 +489,14 @@
   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   <script src="https://cdn.usefathom.com/script.js" data-site="CCCNRRCJ" data-honor-dnt="true"
     data-included-domains="baumannzone.github.io" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/bowser@2.11.0/es5.js" integrity="sha256-G+Xqm7WRpBnTUhXnNLyapcobD+RHAJoiHJ+WDtKDMqY=" crossorigin="anonymous"></script>
+  <script>
+    const browserInfo = bowser.parse(window.navigator.userAgent);
+    const platform = browserInfo.platform.type;
+    if(platform !== 'desktop'){
+      alert('Los cursores solo serán visibles en navegadores de escritorio');
+    }
+  </script>
 </body>
 
 </html>
