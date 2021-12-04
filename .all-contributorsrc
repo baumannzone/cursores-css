@@ -14,6 +14,15 @@
         "code",
         "infra"
       ]
+    },
+    {
+      "login": "ngxCoder",
+      "name": "ngxCoder",
+      "avatar_url": "https://avatars.githubusercontent.com/u/87735757?v=4",
+      "profile": "https://ngxcoder.dev/",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
