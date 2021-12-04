@@ -1,6 +1,6 @@
 # LOS CURSORES EN CSS
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ⭐️ Si te gustó, dale a la estrellita.
@@ -61,6 +61,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="http://baumannzone.dev"><img src="https://avatars.githubusercontent.com/u/5422102?v=4?s=100" width="100px;" alt=""/><br /><sub><b>J. Baumann</b></sub></a><br /><a href="https://github.com/baumannzone/cursores-css/commits?author=baumannzone" title="Code">💻</a> <a href="#infra-baumannzone" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
+    <td align="center"><a href="https://ngxcoder.dev/"><img src="https://avatars.githubusercontent.com/u/87735757?v=4?s=100" width="100px;" alt=""/><br /><sub><b>ngxCoder</b></sub></a><br /><a href="https://github.com/baumannzone/cursores-css/commits?author=ngxCoder" title="Code">💻</a></td>
   </tr>
 </table>
 
