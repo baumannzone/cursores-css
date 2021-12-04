@@ -1,0 +1,25 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "baumannzone",
+      "name": "J. Baumann",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5422102?v=4",
+      "profile": "http://baumannzone.dev",
+      "contributions": [
+        "code",
+        "infra"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "cursores-css",
+  "projectOwner": "baumannzone",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
